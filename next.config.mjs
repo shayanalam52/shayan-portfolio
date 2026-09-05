@@ -1,0 +1,13 @@
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  async rewrites() {
+    return [
+      { source: '/flight-booking', destination: '/flight-booking/index.html' },
+      { source: '/corporate-project', destination: '/corporate-project/index.html' },
+      { source: '/mng', destination: '/mng/index.html' },
+      { source: '/cabs', destination: '/cabs/index.html' },
+    ];
+  },
+};
+
+export default nextConfig;
