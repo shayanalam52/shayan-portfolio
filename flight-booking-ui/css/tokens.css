@@ -1,0 +1,20 @@
+:root {
+  --text-light: #0a3348;
+  --subtext-light: #8c8c8c;
+  --ghost-text-light: #cfcfcf;
+  --border-light: #e8e8e8;
+  --text-dark: #ffffff;
+
+  --cta-button: #f5a623;
+  --cta-button-text: #262626;
+
+  --others-purple-100: #be95ff;
+  --others-yellow-100: #ffda5f;
+  --others-yellow-15: rgba(255, 218, 95, 0.15);
+
+  --font-family: 'Lato', -apple-system, BlinkMacSystemFont, sans-serif;
+
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Select Destination</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/tokens.css">
+<link rel="stylesheet" href="css/base.css">
+<link rel="stylesheet" href="css/select-destination.css">
+</head>
+<body>
+<div class="screen">
+  <header class="header header--picker">
+    <button class="icon-btn" type="button" aria-label="Back" onclick="window.location.href='book-flight.html'">
+      <img src="assets/icons/arrow-left.svg" alt="">
+    </button>
+    <div class="route-fields">
+      <label class="input-field" id="origin-field">
+        <span class="code">VTZ</span>
+        <span class="value">Visakhapatnam</span>
+      </label>
+      <label class="input-field" id="destination-field">
+        <span class="code">To</span>
+        <span class="value value--ghost">City</span>
+      </label>
+    </div>
+    <button class="icon-btn" id="swap-btn" type="button" aria-label="Swap origin and destination">
+      <img src="assets/icons/arrow-up-down.svg" alt="">
+    </button>
+  </header>
+
+  <section class="list-view">
+    <p class="section-title">Suggested</p>
+    <ul class="city-list" id="city-list"></ul>
+  </section>
+</div>
+<script src="js/select-destination.js"></script>
+</body>
+</html>
