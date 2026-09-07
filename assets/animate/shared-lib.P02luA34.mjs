@@ -1,0 +1,3 @@
+import{t as e}from"/assets/animate/rolldown-runtime.Dh6celcD.mjs";function t(e,t){return{description:`Hi, I'm Shayan Alam.
+I turn complex problems into intuitive experiences, with expertise in SaaS and B2B/B2C platforms.`,favicon:(location.origin+"/assets/images/image-cd5c93cf.png"),robots:`max-image-preview:large`,socialImage:(location.origin+"/assets/images/image-e3a69686.png"),title:`Shayan Alam - Product Designer`}}var n=e((()=>{}));export{t as n,n as t};
+//# sourceMappingURL=shared-lib.P02luA34.mjs.map
